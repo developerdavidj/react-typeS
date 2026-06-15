@@ -11,7 +11,7 @@ createRoot(document.getElementById('root')!).render(
 
       <Header/>
         <div className='content'>
-          Daviddscsdc
+          
         </div>
       <Footer/>
 

@@ -3,7 +3,7 @@ import "./Footer.css"
 function Footer () {
     return (
     <p className="container-footer">
-        Todos os direitos reservados © CodeLibrary
+        Todos os direitos reservados © developerdavidj
     </p>
 )
 }   
