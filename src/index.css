@@ -4,22 +4,3 @@
 * {
   font-family: "Sen", sans-serif;
 }
-/* 
-css inicial do curso > foi add tailwhinds
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #F4FBFF;  
-  height: 100vh;
-}
-
-.content {
-  flex: 1;
-} */

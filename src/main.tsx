@@ -8,11 +8,11 @@ import Filter from './compontents/Filter.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
 
-    <div className='container'>
+    <div className='flex flex-col h-screen bg-[#F4FBFF]'>
 
       <Header/>
-        <div className='content'>
-          <Filter />
+        <div className='flex-1 max-w-[1200px] m-auto w-full'>
+          <Filter/>
         </div>
       <Footer/>
 
