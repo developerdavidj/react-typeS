@@ -1,0 +1,26 @@
+.header-container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.logo-img {
+    width: 200px;
+    height: 65px;
+}
+
+.btn-premium {
+    background-color:#00A2F7;
+    width: 156px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;    
+}
