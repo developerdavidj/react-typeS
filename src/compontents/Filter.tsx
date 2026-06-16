@@ -12,15 +12,17 @@
                     <p className="text-[#00a2f7] text-sm">
                         Conteúdo exclusivo todos os dias 
                     </p>
-                <div className="flex items-center">
+                <div className="flex gap-2 items-center mt-2">
 
                     <input 
                     type="text"
                     placeholder="Curso de React"
-                    className="bg-white border border-[#bfbdbd] rounded-md w-[615px] h-[45px]" 
+                    className="bg-white border border-[#bfbdbd] rounded-md w-[615px] h-[45px] text-xs px-2" 
                     />
 
-                    <Search />
+                    <div className='h-[45px] w-[35px] flex justify-center items-center rounded-md bg-[#e1f4ff] '>
+                        <Search size={16} className='text-[#00a2f7]'/>
+                    </div>  
 
                 </div>
             </div>
