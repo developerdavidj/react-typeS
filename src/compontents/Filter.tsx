@@ -5,8 +5,8 @@
             placeholder: string
         }
     
-    function Filter(props: FilterProps) {
-    return (
+    function Filter({title, placeholder}: FilterProps) {
+        return (
         
             <div className="flex flex-col items-center mt-10">
                         
@@ -17,7 +17,7 @@
                     <p className="text-[#00a2f7] text-sm">
                         Conteúdo exclusivo todos os dias 
                     </p>
-                    <h2>{props.title}</h2> 
+                    <h2>{title}</h2> 
 
                 <div className="flex gap-2 items-center mt-2">
                     
@@ -32,7 +32,7 @@
                     </div>  
 
                 </div>
-                    <p className='font-bold text-[#00a2ff7]'>{props.placeholder}</p>
+                    <p className='font-bold text-[#00a2ff7]'>{git placeholder}</p>
             </div>
     )    
 }
