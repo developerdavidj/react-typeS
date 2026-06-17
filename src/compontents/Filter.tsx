@@ -24,15 +24,14 @@
                     <input 
                     type="text"
                     placeholder="Curso de React"
-                    className="bg-white border border-[#bfbdbd] rounded-md w-[615px] h-[45px] text-xs px-2" 
+                    className="bg-white border border-[#bfbdbd] rounded-md w-153.75 h-[45px] text-xs px-2" 
                     />
 
                     <div className='h-[45px] w-[35px] flex justify-center items-center rounded-md bg-[#e1f4ff] '>
-                        <Search size={16} className='text-[#00a2f7]'/>
+                        <Search size={16} className='text-[#00a2f7]' cursor-pointer />
                     </div>  
 
                 </div>
-                    <p className='font-bold text-[#00a2ff7]'>{placeholder}</p>
             </div>
     )    
 }
