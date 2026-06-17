@@ -12,7 +12,11 @@ createRoot(document.getElementById('root')!).render(
 
       <Header/>
         <div className='flex-1 max-w-[1200px] m-auto w-full'>
-          <Filter/>
+
+          <Filter title="componente em desenvolvimento" placeholder=''/>
+          
+          <Filter title="outro componente em desenvolvimento" placeholder='dinamic props'/>
+
         </div>
       <Footer/>
 

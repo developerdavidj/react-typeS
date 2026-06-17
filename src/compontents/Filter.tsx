@@ -1,6 +1,11 @@
-    import { Search } from 'lucide-react';
+    import { Search, TypeIcon } from 'lucide-react';
     
-    function Filter() {
+    type FilterProps = {
+            title: string
+            placeholder: string
+        }
+    
+    function Filter(props: FilterProps) {
     return (
         
             <div className="flex flex-col items-center mt-10">
@@ -12,8 +17,10 @@
                     <p className="text-[#00a2f7] text-sm">
                         Conteúdo exclusivo todos os dias 
                     </p>
-                <div className="flex gap-2 items-center mt-2">
+                    <h2>{props.title}</h2> 
 
+                <div className="flex gap-2 items-center mt-2">
+                    
                     <input 
                     type="text"
                     placeholder="Curso de React"
@@ -25,6 +32,7 @@
                     </div>  
 
                 </div>
+                    <p className='font-bold text-[#00a2ff7]'>{props.placeholder}</p>
             </div>
     )    
 }
