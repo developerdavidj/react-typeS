@@ -32,7 +32,7 @@
                     </div>  
 
                 </div>
-                    <p className='font-bold text-[#00a2ff7]'>{git placeholder}</p>
+                    <p className='font-bold text-[#00a2ff7]'>{placeholder}</p>
             </div>
     )    
 }
