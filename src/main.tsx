@@ -16,8 +16,10 @@ createRoot(document.getElementById('root')!).render(
 
           <Filter placeholder='Buscar seu curso' title="Busque o conteúdo que deseja assistir hoje" />
           
-          <Card />
-          
+          <div className='flex flex-wrap gap-4 justify-center mt-10 bg-white items-center h-20' >
+            <Card />
+          </div>
+    
         </main>
       <Footer/>
 
