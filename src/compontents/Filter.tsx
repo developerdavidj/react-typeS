@@ -2,7 +2,7 @@
     
     type FilterProps = {
             title: string
-            placeholder: string
+            placeholder?: string
         }
     
     function Filter({title, placeholder}: FilterProps) {
